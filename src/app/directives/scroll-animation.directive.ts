@@ -8,7 +8,7 @@ import { AnimationService } from '../services/animation.service';
 })
 export class ScrollAnimationDirective implements AfterViewInit, OnDestroy {
 
-    @Input() public scrollDelay: number = 100;
+    @Input() public scrollDelay: number = 200;
     @Input() public inAnimationData: AnimationData | undefined;
     @Input() public outAnimationData: AnimationData | undefined;
     @Input() public componentPosition: number = 0;
